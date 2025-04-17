@@ -50,9 +50,11 @@ function KareninAlani(kenaruzunlugu) {
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
-}
+function CemberinCevresi(yarıçap) {
+ const pi = 3.14159; // global değişkeni kullanmak için burada tanımladık
+  return 2 * pi * yarıçap; // Çemberin çevresi hesaplanıyor
+};
+  console.log(CemberinCevresi(5));  // Çemberin çevresini hesaplayıp konsola yazdırıyoruz
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
